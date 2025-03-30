@@ -47,8 +47,15 @@ const OurWork = () => {
                   <img 
                     src={image.src} 
                     alt={image.alt}
-                    className="w-full h-full object-cover aspect-square"
+                    className={`w-full h-full object-cover aspect-square ${
+                      image.src.includes('IMG_2') ? 'object-right' : ''
+                    }`}
                     loading="lazy"
+                    style={
+                      image.src.includes('IMG_2') 
+                        ? { objectPosition: 'right center' } 
+                        : {}
+                    }
                   />
                 </div>
               ))}
@@ -60,7 +67,6 @@ const OurWork = () => {
           )}
         </div>
       </section>
-
     </div>
   );
 };
