@@ -64,12 +64,12 @@ const Projects = () => {
       category: "erp"
     }
   ];
-
+  
   // Filter projects based on active category
   const filteredProjects = activeCategory === 'all' 
-    ? allProjects 
-    : allProjects.filter(project => project.category === activeCategory);
-
+  ? allProjects 
+  : allProjects.filter(project => project.category === activeCategory);
+  
   return (
     <div className="min-h-screen py-16">
       <div className="container mx-auto px-4">
@@ -79,9 +79,51 @@ const Projects = () => {
             Explore our portfolio of successful IT implementations across various industries and technologies.
           </p>
         </div>
-
+      {/* Additional info */}
+      <div className="mt-16 p-8 bg-gray-50 rounded-lg">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Global Identity Solutions</h2>
+          <p className="text-gray-700 mb-4">
+            Through our partnership with GET International, we have been involved in numerous passport and ID 
+            projects across various countries, including:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+            <div className="bg-white p-4 rounded shadow-sm">
+              <h3 className="font-semibold mb-2">Passport Projects</h3>
+              <ul className="list-disc list-inside text-gray-600 space-y-1">
+                <li>United States of America</li>
+                <li>Canada</li>
+                <li>Malawi</li>
+                <li>South Korea</li>
+                <li>Mauritius</li>
+                <li>Lesotho (Border ID)</li>
+              </ul>
+            </div>
+            <div className="bg-white p-4 rounded shadow-sm">
+              <h3 className="font-semibold mb-2">ID Projects</h3>
+              <ul className="list-disc list-inside text-gray-600 space-y-1">
+                <li>China (Border ID)</li>
+                <li>Belarus (Driving License)</li>
+                <li>Dominican Republic (Voter's ID)</li>
+                <li>Mexico (Driving License)</li>
+                <li>Tanzania (Social Security)</li>
+                <li>United Arab Emirates (Labor Card)</li>
+              </ul>
+            </div>
+            <div className="bg-white p-4 rounded shadow-sm">
+              <h3 className="font-semibold mb-2">More ID Projects</h3>
+              <ul className="list-disc list-inside text-gray-600 space-y-1">
+                <li>Liberia (National ID)</li>
+                <li>Niger (National ID)</li>
+                <li>Sudan (Driving License)</li>
+                <li>Sudan (Vehicle Registration)</li>
+                <li>Oman (Labor Cards)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
         {/* Category filter */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+
+        <div className="flex flex-wrap justify-center gap-4 my-12">
           <Button 
             variant={activeCategory === 'all' ? 'default' : 'outline'} 
             onClick={() => setActiveCategory('all')}
@@ -134,48 +176,7 @@ const Projects = () => {
           </div>
         )}
         
-        {/* Additional info */}
-        <div className="mt-16 p-8 bg-gray-50 rounded-lg">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Global Identity Solutions</h2>
-          <p className="text-gray-700 mb-4">
-            Through our partnership with GET International, we have been involved in numerous passport and ID 
-            projects across various countries, including:
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
-            <div className="bg-white p-4 rounded shadow-sm">
-              <h3 className="font-semibold mb-2">Passport Projects</h3>
-              <ul className="list-disc list-inside text-gray-600 space-y-1">
-                <li>United States of America</li>
-                <li>Canada</li>
-                <li>Malawi</li>
-                <li>South Korea</li>
-                <li>Mauritius</li>
-                <li>Lesotho (Border ID)</li>
-              </ul>
-            </div>
-            <div className="bg-white p-4 rounded shadow-sm">
-              <h3 className="font-semibold mb-2">ID Projects</h3>
-              <ul className="list-disc list-inside text-gray-600 space-y-1">
-                <li>China (Border ID)</li>
-                <li>Belarus (Driving License)</li>
-                <li>Dominican Republic (Voter's ID)</li>
-                <li>Mexico (Driving License)</li>
-                <li>Tanzania (Social Security)</li>
-                <li>United Arab Emirates (Labor Card)</li>
-              </ul>
-            </div>
-            <div className="bg-white p-4 rounded shadow-sm">
-              <h3 className="font-semibold mb-2">More ID Projects</h3>
-              <ul className="list-disc list-inside text-gray-600 space-y-1">
-                <li>Liberia (National ID)</li>
-                <li>Niger (National ID)</li>
-                <li>Sudan (Driving License)</li>
-                <li>Sudan (Vehicle Registration)</li>
-                <li>Oman (Labor Cards)</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   );

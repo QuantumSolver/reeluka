@@ -31,7 +31,7 @@ const HeroSection = () => {
             Businesses
           </h1>
           <p className="mt-6 text-xl text-blue-100 max-w-2xl animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Partnering with Star Systems and GET International to deliver cutting-edge infrastructure and identity solutions across Africa and beyond.
+            Partnering with Stor Systems and GET International to deliver cutting-edge infrastructure and identity solutions across Africa and beyond.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <Link to="/projects">
