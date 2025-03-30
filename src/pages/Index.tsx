@@ -213,6 +213,7 @@ const Index = () => {
           { src: '/clients/rea-150x150.jpg', alt: 'REA' },
           { src: '/clients/zamtel-150x150.jpg', alt: 'ZAMTEL' },
           { src: '/clients/zppa-150x150.jpg', alt: 'ZPPA' },
+          { src: '/clients/wcfcb.png', alt: 'WCFCB' },
         ].map((client, index) => (
           <div key={index} className="flex flex-col items-center">
             <div className="h-24 w-24 rounded-full bg-white border border-gray-300 p-2 shadow-sm hover:shadow-lg transition-shadow duration-300">

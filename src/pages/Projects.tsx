@@ -1,12 +1,50 @@
-
 import React, { useState } from 'react';
-import ProjectCard from '@/components/ProjectCard';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+
+const ProjectCard = ({ title, client, description, technologies, value, year, featured }) => {
+  return (
+    <Card className={`group relative h-full overflow-hidden transition-all duration-300 hover:shadow-md ${featured ? 'border-2 border-brand-blue' : ''}`}>
+      <div className="h-full flex flex-col">
+        <CardHeader>
+          <CardTitle className="text-lg font-semibold">{title}</CardTitle>
+          <CardDescription className="flex justify-between items-center">
+            <span>{client}</span>
+            <span className="text-sm text-gray-500">{year}</span>
+          </CardDescription>
+        </CardHeader>
+        
+        <CardContent className="flex-grow">
+          <div className="line-clamp-3 group-hover:line-clamp-none transition-[line-clamp] duration-500 ease-in-out text-gray-700">
+            {description}
+          </div>
+          
+          <div className="mt-4 flex flex-wrap gap-2">
+            {technologies.map((tech, index) => (
+              <span 
+                key={index}
+                className="inline-flex items-center rounded-md bg-gray-100 px-2 py-1 text-xs font-medium text-gray-600 transition-colors duration-300 group-hover:bg-gray-200"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
+        </CardContent>
+        
+        <CardFooter className="border-t pt-4">
+          <div className="w-full flex justify-between items-center">
+            <span className="text-sm font-medium text-gray-900">Project Value:</span>
+            <span className="text-sm font-semibold text-brand-blue">{value}</span>
+          </div>
+        </CardFooter>
+      </div>
+    </Card>
+  );
+};
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState('all');
 
-  // Complete list of projects
   const allProjects = [
     {
       title: "HPE SimpliVity Hyperconverged Solutions Implementation",
@@ -62,13 +100,21 @@ const Projects = () => {
       value: "US$ 93,600.00",
       year: "2022-2023",
       category: "erp"
+    },
+    {
+      title: "ERPNext and Paperless-ngx Implementation",
+      client: "Workers Compensation Fund",
+      description: "Deployed ERPNext to streamline financial and operational workflows, alongside Paperless-ngx to digitize document management, eliminating manual processes. The project included seamless system integration with existing platforms and database migration to ensure data consistency and accessibility.",
+      technologies: ["ERPNext", "Paperless-ngx", "System Integration", "Database Migration"],
+      value: "US$ 1,000,000.00",
+      year: "2024-2025",
+      category: "erp"
     }
   ];
   
-  // Filter projects based on active category
   const filteredProjects = activeCategory === 'all' 
-  ? allProjects 
-  : allProjects.filter(project => project.category === activeCategory);
+    ? allProjects 
+    : allProjects.filter(project => project.category === activeCategory);
   
   return (
     <div className="min-h-screen py-16">
@@ -79,8 +125,8 @@ const Projects = () => {
             Explore our portfolio of successful IT implementations across various industries and technologies.
           </p>
         </div>
-      {/* Additional info */}
-      <div className="mt-16 p-8 bg-gray-50 rounded-lg">
+
+        <div className="mt-16 p-8 bg-gray-50 rounded-lg">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Global Identity Solutions</h2>
           <p className="text-gray-700 mb-4">
             Through our partnership with GET International, we have been involved in numerous passport and ID 
@@ -121,7 +167,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        {/* Category filter */}
 
         <div className="flex flex-wrap justify-center gap-4 my-12">
           <Button 
@@ -154,7 +199,6 @@ const Projects = () => {
           </Button>
         </div>
 
-        {/* Projects grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project, index) => (
             <ProjectCard
@@ -175,8 +219,6 @@ const Projects = () => {
             <p className="text-gray-500">No projects found in this category.</p>
           </div>
         )}
-        
-        
       </div>
     </div>
   );
