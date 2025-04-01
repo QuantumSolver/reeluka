@@ -173,6 +173,43 @@ const WhatWeDo = () => {
                 </li>
               </ul>
             </div>
+             {/* Renewable Enery Solutions (from AI version) */}
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+              <div className="inline-block bg-brand-blue bg-opacity-10 p-3 rounded-lg mb-4">
+                <Shield className="h-8 w-8 text-brand-blue" />
+              </div>
+              <h2 className="text-xl font-bold text-gray-900 mb-3">Renewable Enery Solutions</h2>
+              <p className="text-gray-600 mb-4">
+
+              </p>
+              <ul className="space-y-2 text-gray-600 text-sm">
+                <li className="flex items-start">
+                  <span className="bg-brand-blue rounded-full h-2 w-2 mt-2 mr-2"></span>
+                  <span>Residential Solutions</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="bg-brand-blue rounded-full h-2 w-2 mt-2 mr-2"></span>
+                  <span>Commercial solutions</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Petrochemical Industry (from AI version) */}
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+              <div className="inline-block bg-brand-blue bg-opacity-10 p-3 rounded-lg mb-4">
+                <Shield className="h-8 w-8 text-brand-blue" />
+              </div>
+              <h2 className="text-xl font-bold text-gray-900 mb-3">Petrochemical Industry</h2>
+              <p className="text-gray-600 mb-4">
+                We have experience and working partnerships in Petrochemical Energy Industry.
+              </p>
+              <ul className="space-y-2 text-gray-600 text-sm">
+                <li className="flex items-start">
+                  <span className="bg-brand-blue rounded-full h-2 w-2 mt-2 mr-2"></span>
+                  <span>Dealership for Service Stations for Puma Enery</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
