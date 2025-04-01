@@ -204,7 +204,7 @@ const Index = () => {
     </div>
 
     <div className="bg-white p-8 rounded-lg shadow-md">
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 gap-6">
         {[
           { src: '/clients/dangote-150x150.png', alt: 'Dangote' },
           { src: '/clients/Hitachi-150x150.png', alt: 'Hitachi' },
