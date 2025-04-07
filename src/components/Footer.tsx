@@ -86,7 +86,7 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4">Partners</h3>
             <ul className="space-y-2">
               <li className="text-gray-400"><a href="https://www.stor-systems.com/">Stor Systems (Zambia) Limited</a></li>
-              <li className="text-gray-400">GET International</li>
+              <li className="text-gray-400"><a href="https://www.getgroup.com/">GET International</a></li>
               <li className="text-gray-400"><a href="https://www.hpe.com/emea_europe/en/home.html">HPE</a></li>
               <li className="text-gray-400"><a href="https://www.oracle.com/">Oracle</a></li>
               <li className="text-gray-400"><a href="https://www.ibm.com/">IBM</a></li>
