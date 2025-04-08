@@ -10,7 +10,15 @@ const AboutUs = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Reeluka Investments</h1>
             <p className="text-xl text-gray-600">
-              Reeluka Investments Limited was founded and incorporated in 2016 and is currently based in Lusaka Zambia. We supply a wide range of state of the art, Electrical, Electronic & Mechanical Engineering. A team of skilled personnel with vast experience in the Mining and Industrial Sector came up with Reeluka Investments to provide a number of various disciplines ranging from general supply and construction, to High Voltage Equipment & Industrial Process Control. Together, management has over 20 years of Industrial experience and have continued to strive with excellence to ensure that customers receive the best service the first time.
+              Reeluka Investments Limited, founded and incorporated in 2016, is a Zambian-owned company headquartered in Lusaka. 
+With a management team boasting over 20 years of combined experience in the Mining and Industrial sectors, we specialize in delivering innovative and high-quality solutions across multiple disciplines. 
+<br><br>
+Our core service areas include Information Technology, Mechanical Engineering, Electrical & Electronics, Instrumentation & Control, Disaster Recovery, and Renewable Energy. We offer advanced IT services such as ERP systems, Oracle database implementation, hyperconverged infrastructure, and disaster recovery planning. 
+<br><br>
+Our engineering division provides support in areas like industrial automation, motor control systems and custom fabrication. 
+<br><br>
+We are also committed to sustainability through tailored renewable energy solutions for residential, commercial, and petrol chemical sectors. At Reeluka, we follow a client-centered approach—consultation, solution design, implementation, and ongoing support—ensuring every solution is efficient, reliable, and aligned with our clients’ operational needs.
+
             </p>
           </div>
         </div>
