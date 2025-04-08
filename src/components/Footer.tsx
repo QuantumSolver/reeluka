@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <h3 className="text-xl font-semibold mb-4">Reeluka Investments Ltd</h3>
             <p className="text-gray-400 mb-4">
-              Providing robust and innovative IT solutions tailored to meet your business needs.
+              Passion for Quality Business
             </p>
             
             {/* Our Commitment Section */}
