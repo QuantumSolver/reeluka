@@ -11,9 +11,10 @@ const WhatWeDo = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">What We Do</h1>
             <p className="text-xl text-gray-600">
-              Reeluka supplies a wide range of products and services covering Information and Technology, 
-              Mechanical Engineering, Electrical/Electronics, Earth Moving Equipment as well as 
-              Instrumentation and Control.
+             At <strong>Reeluka Investments Limited</strong>, we offer a broad spectrum of products and services across multiple 
+              engineering and technology disciplines. Our capabilities span <strong>Information Technology, Mechanical 
+              Engineering, Electrical & Electronics, and Renewable Energy Solutions</strong>. We serve industries including industrial 
+              manufacturing, and commercial enterprises.
             </p>
           </div>
         </div>
@@ -173,33 +174,33 @@ const WhatWeDo = () => {
                 </li>
               </ul>
             </div>
-             {/* Renewable Enery Solutions (from AI version) */}
+             {/* Renewable Energy Solutions (from AI version) */}
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
               <div className="inline-block bg-brand-blue bg-opacity-10 p-3 rounded-lg mb-4">
                 <Shield className="h-8 w-8 text-brand-blue" />
               </div>
-              <h2 className="text-xl font-bold text-gray-900 mb-3">Renewable Enery Solutions</h2>
+              <h2 className="text-xl font-bold text-gray-900 mb-3">Renewable Energy Solutions</h2>
               <p className="text-gray-600 mb-4">
 
               </p>
               <ul className="space-y-2 text-gray-600 text-sm">
                 <li className="flex items-start">
                   <span className="bg-brand-blue rounded-full h-2 w-2 mt-2 mr-2"></span>
-                  <span>Residential Solutions</span>
+                  <span>Solar Residential Solutions</span>
                 </li>
                 <li className="flex items-start">
                   <span className="bg-brand-blue rounded-full h-2 w-2 mt-2 mr-2"></span>
-                  <span>Commercial solutions</span>
+                  <span>Solar Commercial solutions</span>
                 </li>
               </ul>
             </div>
 
-            {/* Petrochemical Industry (from AI version) */}
+            {/* Fuel Retail Industry (from AI version) */}
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
               <div className="inline-block bg-brand-blue bg-opacity-10 p-3 rounded-lg mb-4">
                 <Shield className="h-8 w-8 text-brand-blue" />
               </div>
-              <h2 className="text-xl font-bold text-gray-900 mb-3">Petrochemical Industry</h2>
+              <h2 className="text-xl font-bold text-gray-900 mb-3">Fuel Retail Industry</h2>
               <p className="text-gray-600 mb-4">
                 We have experience and working partnerships in Petrochemical Energy Industry.
               </p>
