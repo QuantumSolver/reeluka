@@ -51,7 +51,6 @@ const Projects = () => {
       client: "ABC Banking Corporation",
       description: "Successfully implemented HPE SimpliVity Hyperconverged solutions, upgraded the VMware platform, and configured a comprehensive disaster recovery solution. This integration enhances efficiency, scalability, and simplifies IT operations for the bank.",
       technologies: ["HPE SimpliVity", "VMware", "Disaster Recovery"],
-      value: "US$ 180,000.00",
       year: "2020",
       category: "infrastructure",
       featured: true
@@ -61,7 +60,6 @@ const Projects = () => {
       client: "Warwyck Private Bank",
       description: "Implemented HPE SimpliVity, a leading hyperconverged solution that streamlines IT operations, and Veeam Backup & Replication for robust data protection and recovery capabilities.",
       technologies: ["HPE SimpliVity", "Veeam Backup", "Data Protection"],
-      value: "US$ 100,000.00",
       year: "2019",
       category: "infrastructure"
     },
@@ -70,7 +68,6 @@ const Projects = () => {
       client: "National Savings Credit Bank Zambia",
       description: "Implemented Linux Operating System, Server Virtualisation software, and Oracle Middleware and Database. The project included Red Hat EE Operating System, Oracle VM Virtualisation software, Oracle WebLogic, Oracle Database, and post-implementation support.",
       technologies: ["Red Hat Linux", "Oracle VM", "Oracle WebLogic", "Oracle Database"],
-      value: "US$ 269,801.90",
       year: "2020",
       category: "database"
     },
@@ -79,7 +76,6 @@ const Projects = () => {
       client: "Atlas Mara (now Access Bank) Zambia",
       description: "Ongoing delivery, implementation, and support for core banking infrastructure since 2019, including Oracle Sparc and Intel servers, Oracle ZFS Storage Appliance, IBM Storwize Storage, Veritas Netbackup Appliance, Kemp Load Balancers, Redhat OS, and Oracle database services.",
       technologies: ["Oracle Sparc", "IBM Storage", "Veritas Netbackup", "Oracle Database"],
-      value: "US$ 136,326.42 (April 2021 deliverable)",
       year: "2019-Present",
       category: "infrastructure"
     },
@@ -88,7 +84,6 @@ const Projects = () => {
       client: "Indo Zambia Bank (IZB)",
       description: "Providing crucial support and implementation services for IBM Power Servers, IBM Storage, Oracle database, and WebLogic to ensure optimal performance of core banking systems.",
       technologies: ["IBM Power Servers", "IBM Storage", "Oracle Database", "WebLogic"],
-      value: "US$ 1,300,000.00",
       year: "2024",
       category: "database"
     },
@@ -97,7 +92,6 @@ const Projects = () => {
       client: "Zambia Telecommunications Company Limited (ZAMTEL)",
       description: "Comprehensive upgrade of ZAMTEL's Oracle ERP system, including both the application and database components. This upgrade provided ZAMTEL with a more modern, efficient, and integrated ERP platform.",
       technologies: ["Oracle ERP", "Database Migration", "System Integration"],
-      value: "US$ 93,600.00",
       year: "2022-2023",
       category: "erp"
     },
@@ -106,7 +100,6 @@ const Projects = () => {
       client: "Workers Compensation Fund",
       description: "Deployed ERPNext to streamline financial and operational workflows, alongside Paperless-ngx to digitize document management, eliminating manual processes. The project included seamless system integration with existing platforms and database migration to ensure data consistency and accessibility.",
       technologies: ["ERPNext", "Paperless-ngx", "System Integration", "Database Migration"],
-      value: "US$ 1,000,000.00",
       year: "2024-2025",
       category: "erp"
     }
