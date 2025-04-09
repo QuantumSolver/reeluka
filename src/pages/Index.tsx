@@ -14,7 +14,6 @@ const Index = () => {
       client: "ABC Banking Corporation",
       description: "Successfully implemented HPE SimpliVity Hyperconverged solutions, upgraded the VMware platform, and configured a comprehensive disaster recovery solution. This integration enhances efficiency, scalability, and simplifies IT operations for the bank.",
       technologies: ["HPE SimpliVity", "VMware", "Disaster Recovery"],
-      value: "US$ 180,000.00",
       year: "2020",
       featured: true
     },
@@ -23,7 +22,6 @@ const Index = () => {
       client: "Zambia Telecommunications Company Limited (ZAMTEL)",
       description: "Comprehensive upgrade of ZAMTEL's Oracle ERP system, including both the application and database components. This upgrade provided ZAMTEL with a more modern, efficient, and integrated ERP platform, leading to improved resource management and streamlined business processes.",
       technologies: ["Oracle ERP", "Database Migration", "System Integration"],
-      value: "US$ 93,600.00",
       year: "2022-2023",
       featured: false
     },
@@ -32,7 +30,6 @@ const Index = () => {
       client: "National Savings Credit Bank Zambia",
       description: "Implemented Linux Operating System, Server Virtualisation software, and Oracle Middleware and Database. The project included Red Hat EE Operating System, Oracle VM Virtualisation software, Oracle WebLogic, Oracle Database, and post-implementation support.",
       technologies: ["Red Hat Linux", "Oracle VM", "Oracle WebLogic", "Oracle Database"],
-      value: "US$ 269,801.90",
       year: "2020",
       featured: false
     }
