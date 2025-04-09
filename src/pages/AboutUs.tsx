@@ -12,11 +12,11 @@ const AboutUs = () => {
             <p className="text-xl text-gray-600">
               Reeluka Investments Limited, founded and incorporated in 2016, is a Zambian-owned company headquartered in Lusaka. 
 With a management team boasting over 20 years of combined experience in the Mining and Industrial sectors, we specialize in delivering innovative and high-quality solutions across multiple disciplines. 
-<br><br>
+<br>
 Our core service areas include Information Technology, Mechanical Engineering, Electrical & Electronics, Instrumentation & Control, Disaster Recovery, and Renewable Energy. We offer advanced IT services such as ERP systems, Oracle database implementation, hyperconverged infrastructure, and disaster recovery planning. 
-<br><br>
+<br>
 Our engineering division provides support in areas like industrial automation, motor control systems and custom fabrication. 
-<br><br>
+<br>
 We are also committed to sustainability through tailored renewable energy solutions for residential, commercial, and petrol chemical sectors. At Reeluka, we follow a client-centered approach—consultation, solution design, implementation, and ongoing support—ensuring every solution is efficient, reliable, and aligned with our clients’ operational needs.
 
             </p>
